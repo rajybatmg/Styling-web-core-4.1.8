@@ -5,7 +5,11 @@
 }
 @font-face {
     font-family: "TT Lakes Neue Trial" ;
-    src: url("Fonts/tt-lakes-neue-font-family");
+    src: url("Fonts/tt-lakes-neue-font-family") format("truetype");
+    font-style: normal;
+}
+body {
+  font-family: "TT Lakes Neue Trial", sans-serif;
 }
 
 .sidebar{
@@ -26,4 +30,16 @@
 .group__icon {
     height: 50.81px;
     width: 96.55px;
+}
+.sidebar__navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.sidebar__navigation .item {
+    text-decoration: none;
+    color: #1B1C21;
+    font-family: "TT Lakes Neue Trial" ;
 }
