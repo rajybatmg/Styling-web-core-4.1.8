@@ -3,16 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: Roboto, sans-serif, serif;
+}
+/* REGULAR */
 @font-face {
-  font-family: "TT Lakes Neue Trial";
-  src: url("./Fonts/tt-lakes-neue-trial/TT Lakes Neue Trial Medium.ttf")
-    format("truetype");
-  font-weight: 500;
-  font-style: normal;
+    font-family: "TT Lakes Neue Trial";
+    src: url("Fonts/tt-lakes-neue-font-family") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* MEDIUM */
+@font-face {
+    font-family: "TT Lakes Neue Trial";
+    src: url("./Fonts/tt-lakes-neue-font-family/TT-Lakes-Neue-Trial-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* BOLD */
+@font-face {
+    font-family: "TT Lakes Neue Trial";
+    src: url("./Fonts/tt-lakes-neue-font-family/TT-Lakes-Neue-Trial-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
 }
 
 body {
-  font-family: "TT Lakes Neue Trial", sans-serif;
+    font-family: "TT Lakes Neue Trial", sans-serif;
 }
 
 .sidebar{
@@ -48,6 +67,8 @@ body {
     text-decoration: none;
     color: #1B1C21;
     font-family: "TT Lakes Neue Trial" ;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .sidebar__navigation:hover {
@@ -75,6 +96,11 @@ body {
     text-decoration: none;
     color: #1B1C21;
     letter-spacing: -0.2px;
+}
+.mail__phone .phone {
+    font-family: "TT Lakes Neue Trial";
+    font-weight: 700;
+    font-style: normal;
 }
 .sidebar__languages {
     margin-top: 10px;
