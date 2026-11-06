@@ -22,6 +22,8 @@ body {
     margin-top: 10px;
     margin-left: 15px;
     border: 1px solid blue;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 .logo__section {
     display: flex;
@@ -29,11 +31,11 @@ body {
     gap: 25px;
 }
 .search__icon {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 .group__icon {
-    height: 50.81px;
-    width: 96.55px;
+    height: 50px;
+    width: 96px;
 }
 .sidebar__navigation {
     display: flex;
@@ -56,15 +58,25 @@ body {
 }
 
 .contacts {
-    margin-top: 80px;
+    margin-top: 200px;
     display: flex;
     gap: 15px;
+    margin-left: 15px;
 }
 .mail__phone {
     display: flex;
     flex-direction: column;
+    gap: 8px;
+    margin-left: 15px;
+    margin-top: 8px;
 }
 .mail__phone .mail,
 .mail__phone .phone {
     text-decoration: none;
+    color: #1B1C21;
+    letter-spacing: -0.2px;
+}
+.sidebar__languages {
+    margin-top: 10px;
+    margin-left: 15px;
 }
