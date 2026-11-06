@@ -5,6 +5,7 @@
 }
 body {
     font-family: Roboto, sans-serif, serif;
+    background-color: #ffffff;
 }
 /* MEDIUM */
 @font-face {
@@ -28,7 +29,6 @@ body {
     max-height: 100vh;
     margin-top: 10px;
     margin-left: 15px;
-    border: 1px solid blue;
     padding-top: 15px;
     padding-left: 15px;
 }
@@ -60,6 +60,19 @@ body {
     font-style: normal;
     letter-spacing: -0.2px;
     line-height: 24px;
+}
+.sidebar__navigation a:first-child {
+    position: relative;
+}
+.sidebar__navigation a:first-child::before {
+    content: "";
+    position: absolute;
+    left: -16px;
+    top: 0;
+    width: 4px;
+    height: 24px;
+    background-color: #41f6d7;
+    border-radius: 0 4px 4px 0;
 }
 
 .sidebar__navigation:hover {
