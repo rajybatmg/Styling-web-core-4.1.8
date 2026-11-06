@@ -113,6 +113,9 @@ body {
     font-size: 24px;
 }
 .sidebar__languages {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;;
     margin-top: 30px;
     margin-left: 15px;
     letter-spacing: -0.2px;
@@ -120,4 +123,8 @@ body {
 }
 .sidebar__languages:hover {
     cursor: pointer;
+}
+
+.sidebar__languages :first-child {
+    color: #7E7E82;
 }
