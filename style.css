@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "TT Lakes Neue Trial" ;
+    src: url("Fonts/tt-lakes-neue-font-family");
+}
+
+.sidebar{
+    position: fixed;
+    width: 320px;
+    max-height: 100vh;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.logo__section {
+    display: flex;
+    justify-content: space space-around;
+    gap: 25px;
+}
+.search__icon {
+  margin-left: 20px;
+}
+.group__icon {
+    height: 50.81px;
+    width: 96.55px;
+}
