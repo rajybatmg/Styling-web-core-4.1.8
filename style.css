@@ -69,17 +69,17 @@ body {
     position: absolute;
     left: -16px;
     top: 0;
-    width: 4px;
+    width: 3px;
     height: 24px;
-    background-color: #41f6d7;
+    background-color: #41F6D7;
     border-radius: 0 4px 4px 0;
 }
 
 .sidebar__navigation:hover {
     cursor: pointer;
 }
-.sidebar__navigation.item:focus {
-    text-shadow: 2px 2px 4px gray;
+.sidebar__navigation a:active {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .contacts {
@@ -112,8 +112,11 @@ body {
     font-size: 24px;
 }
 .sidebar__languages {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 15px;
     letter-spacing: -0.2px;
     line-height: 24px;
+}
+.sidebar__languages:hover {
+    cursor: pointer;
 }
