@@ -26,11 +26,12 @@ body {
 .sidebar{
     position: fixed;
     width: 320px;
-    max-height: 100vh;
+    height: 100vh;
     margin-top: 10px;
     margin-left: 15px;
     padding-top: 15px;
     padding-left: 15px;
+    overflow-y: auto;
 }
 .logo__section {
     display: flex;
@@ -60,6 +61,7 @@ body {
     font-style: normal;
     letter-spacing: -0.2px;
     line-height: 24px;
+    transition: opacity 0.3 ease;
 }
 .sidebar__navigation a:first-child {
     position: relative;
@@ -75,8 +77,11 @@ body {
     border-radius: 0 4px 4px 0;
 }
 
-.sidebar__navigation:hover {
+.sidebar__navigation .item:hover {
     cursor: pointer;
+    opacity: 0.6;
+
+
 }
 .sidebar__navigation a:active {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
